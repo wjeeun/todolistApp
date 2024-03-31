@@ -12,8 +12,8 @@
     <div class="container">
         <h1>Todo List</h1>
         <section class="input-area">
-            <input type="text"/>
-            <button>+</button>
+            <input type="text" id="user-input"/>
+            <button id="insert-button">+</button>
         </section>
         <section class="task-area">
             <div class="task-tabs">
@@ -22,15 +22,7 @@
                 <div>Not Done</div>
                 <div>Done</div>
             </div>
-            <div>
-                <div class="task">
-                    <div>집가기</div>
-                <div>
-                    <button>Check</button>
-                    <button>Delete</button>
-                </div>
-                </div>
-            </div>
+            <div id="task-list"></div>
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
